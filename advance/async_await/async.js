@@ -12,10 +12,10 @@ rejected        */
 // returns promise automatically 
 // async function hello(){
 // }
-/*
+
 const sing = async () => {
-    // throw new Error("uh oh")
-    throw "oh no  problem"
+    throw  Error("uh oh")
+    // throw "oh no  problem"
     return 'LA LA LA LA'
 }
 
@@ -27,7 +27,7 @@ sing()
         console.log("Oh no, Promise rejected ");
         console.log(err);
     })
-*/
+
 
 const login= async (username,password)=>{
     if(!username || !password) throw 'Missing Credentials'
